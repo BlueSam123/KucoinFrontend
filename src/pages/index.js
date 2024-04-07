@@ -17,7 +17,7 @@ export default function Home() {
     }
 
     axios
-      .post("https://localhost:7061/api/user/auth/login", {
+      .post("https://kucoinbackend.onrender.com/api/user/auth/login", {
         email: emailPhone,
         password: password,
       })
