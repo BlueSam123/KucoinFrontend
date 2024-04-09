@@ -38,7 +38,9 @@ export default function Home() {
           <Image src="ku.svg" width={100} height={100} />
         </Link>
         <div className="flex items-center gap-4">
-          <button>Login</button>
+          <Link href="/">
+            <button>Login</button>
+          </Link>
           <button className="px-4 py-2 rounded-3xl bg-black text-white">
             Sign Up
           </button>
