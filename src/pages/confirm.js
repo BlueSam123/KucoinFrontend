@@ -57,7 +57,7 @@ const Confirm = () => {
             className=" p-4  rounded-lg  border-green-500 border-2 bg-white"
           ></input>
           <input
-            placeholder="Transaction Pin"
+            placeholder="Trading Key"
             type="text"
             value={transaction}
             onChange={(e) => setTransaction(e.target.value)}
